@@ -1,0 +1,46 @@
+# Node Modules
+node_modules/
+
+# Environment Variables
+.env
+
+# WhatsApp Session
+.wwebjs_auth/
+.wwebjs_cache/
+
+# Generated Websites
+generated-sites/
+output/
+dist/
+
+# ZIP Files
+*.zip
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# IDE Files
+.vscode/
+.idea/
+
+# Coverage
+coverage/
+
+# Temporary Files
+temp/
+tmp/
+
+# Netlify
+.netlify/
+
+# Build Files
+build/
+
+# Package Lock Backup
+package-lock-backup.json

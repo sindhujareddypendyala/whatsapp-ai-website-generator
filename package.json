@@ -1,0 +1,39 @@
+{
+  "name": "elevatebox_internship_task",
+  "version": "1.0.0",
+  "description": "AI-powered WhatsApp Website Generator with automated deployment",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "node tests/builder.test.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "ai",
+    "website-generator",
+    "groq",
+    "netlify",
+    "automation",
+    "tailwind",
+    "deployment"
+  ],
+  "author": "Sindhuja Pendyala",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "fs-extra": "^11.2.0",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.26.0",
+    "archiver": "^7.0.1",
+    "mime-types": "^2.1.35"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
