@@ -38,43 +38,75 @@ Live Website URL
 ## Tech Stack
 
 Technology	      -     Purpose
+
 Node.js	         -     Backend runtime
+
 whatsapp-web.js	-     WhatsApp automation
+
 Groq API	         -     AI-powered requirement extraction
+
 Tailwind CSS      -   	Responsive UI styling
+
 Puppeteer         -   	Browser automation
+
 Netlify API	      -     Automatic website deployment
+
 JavaScript	      -     Core application logic
 
 
 ## Project Structure
 
 Elevatebox_Internship_Task/
+
  README.md
+ 
  package.json
+ 
  .gitignore
+ 
  .env.example
+ 
 
   src/
+  
        index.js
+       
        whatsapp/
+       
                client.js
+               
        ai/
+       
                prompts.js
+               
                processor.js
+               
         generator/
+        
         builder.js
+        
         deployment/
+        
               deployer.js
+              
         voice/
+        
                transcriber.js
+               
         utils/
+        
                validator.js
+               
                analytics.js
+               
         docs/
+        
                ARCHITECTURE.md
+               
                DEMO.md
+               
  tests/
+ 
         builder.test.js
 
 
